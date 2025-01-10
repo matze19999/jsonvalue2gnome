@@ -1,0 +1,24 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.jsonvalue" path="/org/gnome/shell/extensions/jsonvalue/">
+    <!-- Standard-URL, z.B. deine API -->
+    <key name="url" type="s">
+      <default>"https://example.com/data.json"</default>
+      <summary>JSON URL</summary>
+      <description>Die URL, von der die Extension JSON-Daten abfragt.</description>
+    </key>
+
+    <!-- JSON-Pfad, z.B. 0.balance oder 1.firm_name -->
+    <key name="json-path" type="s">
+      <default>"0.balance"</default>
+      <summary>JSON Pfad</summary>
+      <description>Pfad in der JSON-Antwort, z.B. 0.balance</description>
+    </key>
+
+    <!-- Update-Intervall in Sekunden -->
+    <key name="update-interval" type="i">
+      <default>60</default>
+      <summary>Update-Intervall</summary>
+      <description>Wie oft (in Sekunden) die Daten neu abgefragt werden sollen.</description>
+    </key>
+  </schema>
+</schemalist>

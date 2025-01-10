@@ -1,0 +1,14 @@
+{
+  "uuid": "jsonvalue@matze19999.de",
+  "name": "JSON Value in Panel",
+  "description": "Zeigt einen konfigurierbaren JSON-Wert aus einer URL im Panel an.",
+  "shell-version": [
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.jsonvalue",
+  "version": 1
+}
